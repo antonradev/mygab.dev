@@ -57,17 +57,17 @@ angular.module('mygab')
 
                 var editGabModal = $modal.open({
                     templateUrl: 'states/index/editGabModal.html',
-                    controller: moduleControllerFunction
+                    controller: moduleControllerFunction // function name instead of separate .controller()
                 });
 
-
+                // The function for the Modal box controller
                 function moduleControllerFunction($scope) {
 
-                    $scope.thisGab = gab;
-                    gab.content = $scope.thisGab.content;
+                    $scope.editedGab = gab;
 
-                    $scope.saveThisGab = function () {
+                    $scope.saveThisGab = function (content) {
 
+                        gab.content = $('#editedGab').val();
                         editGabModal.close();
                     };
 
