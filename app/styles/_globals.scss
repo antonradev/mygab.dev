@@ -1,0 +1,34 @@
+html {
+    overflow-y: scroll;
+}
+
+* {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+#root
+{
+    position: relative; //View will be positioned absolute during animations
+
+    > div[ng-view], > div[ui-view]
+    {
+        > .container
+        {
+            max-width: none;
+            width: 100%;
+            margin-top: 40px;
+        }
+    }
+}
+
+.no-left-margin
+{
+    margin-left: 0 !important;
+}
+
+[ng-click], [ui-sref]
+{
+    cursor: pointer;
+}

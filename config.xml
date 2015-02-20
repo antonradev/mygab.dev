@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.antonradev.mygab" version="1.0.0">
+    <name>MyGab</name>
+    <description>
+        Simple text notes recording application
+    </description>
+    <author email="anton.radev@gmail.com" href="http://antonradev.com">
+        Anton Radev
+    </author>
+    <content src="index.html"/>
+    <access origin="*"/>
+</widget>
