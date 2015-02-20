@@ -1,0 +1,12 @@
+<div class="modal-header">
+    <h3 class="modal-title">Edit This Gab</h3>
+</div>
+<div class="modal-body">
+    
+    <textarea class="form-control" id="editedGab">{{editedGab.content}}</textarea>
+    
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" ng-click="saveThisGab(thisGab.content)">Save Gab</button>
+    <button class="btn btn-default" ng-click="cancelGabEditing()">Cancel</button>
+</div>

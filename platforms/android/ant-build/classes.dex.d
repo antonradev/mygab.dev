@@ -48,4 +48,10 @@ D:\xampp\htdocs\projects\mygab\mygab\platforms\android\ant-build\classes\org\apa
 D:\xampp\htdocs\projects\mygab\mygab\platforms\android\ant-build\classes\org\apache\cordova\file\LocalFilesystemURL.class \
 D:\xampp\htdocs\projects\mygab\mygab\platforms\android\ant-build\classes\org\apache\cordova\file\NoModificationAllowedException.class \
 D:\xampp\htdocs\projects\mygab\mygab\platforms\android\ant-build\classes\org\apache\cordova\file\TypeMismatchException.class \
+D:\xampp\htdocs\projects\mygab\mygab\platforms\android\ant-build\classes\org\pgsqlite\SQLitePlugin$1.class \
+D:\xampp\htdocs\projects\mygab\mygab\platforms\android\ant-build\classes\org\pgsqlite\SQLitePlugin$Action.class \
+D:\xampp\htdocs\projects\mygab\mygab\platforms\android\ant-build\classes\org\pgsqlite\SQLitePlugin$DBQuery.class \
+D:\xampp\htdocs\projects\mygab\mygab\platforms\android\ant-build\classes\org\pgsqlite\SQLitePlugin$DBRunner.class \
+D:\xampp\htdocs\projects\mygab\mygab\platforms\android\ant-build\classes\org\pgsqlite\SQLitePlugin$QueryType.class \
+D:\xampp\htdocs\projects\mygab\mygab\platforms\android\ant-build\classes\org\pgsqlite\SQLitePlugin.class \
 D:\xampp\htdocs\projects\mygab\mygab\platforms\android\ant-build\dexedLibs\classes-64ed945c504a4a6b3aa30663f521424d.jar \
