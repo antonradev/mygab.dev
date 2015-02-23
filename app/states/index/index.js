@@ -7,7 +7,7 @@ angular.module('mygab')
                 templateUrl: 'states/index/index-view.html'
             }));
         })
-        .controller('IndexCtrl', function ($scope, $localStorage, $modal) {
+        .controller('IndexCtrl', function ($scope, $localStorage, $modal, geoLocationService) {
 
 
             var initLocalStorage = function () {
@@ -22,15 +22,20 @@ angular.module('mygab')
             initLocalStorage();
 
 
-            $scope.gabLength = {};
-            $scope.gabLength.length = $localStorage.savedGabs.length;
 
-            $scope.postGab = {content: ''};
+            geoLocationService.then(function (currentLocation) {
+
+                $scope.location = currentLocation;
+                $scope.gabLength = {};
+                $scope.gabLength.length = $localStorage.savedGabs.length;
+                $scope.postGab = {content: '', location: $scope.location};
+
+            });
 
             $scope.InsertGab = function () {
 
                 $localStorage.savedGabs.push($scope.postGab);
-                $scope.postGab = {};
+                $scope.postGab = {content: '', location: $scope.location};
                 $scope.gabLength.length = $localStorage.savedGabs.length;
 
             };
@@ -49,7 +54,6 @@ angular.module('mygab')
                 $scope.gabLength.length = $localStorage.savedGabs.length;
 
             };
-
 
 
             // Edit Gab Modal
@@ -77,10 +81,7 @@ angular.module('mygab')
 
                 } // End of moduleControllerFunction()
 
-
             };
-
-
 
 
 

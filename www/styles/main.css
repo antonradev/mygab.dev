@@ -21184,6 +21184,7 @@ body {
 }
 
 .index-state .list-group-item {
+  padding-bottom: 30px;
   overflow: hidden;
   background: #f3f3f3;
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YzZjNmMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYmZiZmIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -21197,7 +21198,7 @@ body {
   }
 
   line {
-    font-family: \0000352;
+    font-family: \0000353;
   }
 }
 
@@ -21213,7 +21214,32 @@ body {
   }
 
   line {
-    font-family: \0000358;
+    font-family: \0000359;
+  }
+}
+
+.index-state .gab-location {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #ebebeb;
+  padding: 2px 10px;
+  padding-bottom: 11px;
+  border-radius: 5px !important;
+  margin-right: -6px;
+  margin-bottom: -10px;
+  box-shadow: inset 0px 5px 6px -6px rgba(0, 0, 0, 0.18);
+  font-size: 90%;
+  color: #7b7b7b;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/D\:\/xampp\/htdocs\/projects\/mygab\/mygab\/app\/states\/index\/_index-state\.scss;
+  }
+
+  line {
+    font-family: \0000377;
   }
 }
 
@@ -21232,7 +21258,7 @@ body {
   }
 
   line {
-    font-family: \0000370;
+    font-family: \0000389;
   }
 }
 
@@ -21249,7 +21275,7 @@ body {
   }
 
   line {
-    font-family: \0000382;
+    font-family: \00003101;
   }
 }
 

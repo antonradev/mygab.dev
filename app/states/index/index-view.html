@@ -20,9 +20,11 @@
                 <div ng-show="gabLength.length > 0">
                     <strong>My Gabs: {{gabLength.length}}</strong> <button class="btn btn-sm pull-right delete-all-gabs" ng-click="deleteGabs()">Delete Gabs</button>
                     <ul class="list-group saved-gabs" style="margin-top: 19px;">
-                        <li class="list-group-item" ng-repeat="gab in savedGabs"><span class="pull-left gab-text">{{gab.content}}</span> 
+                        <li class="list-group-item" ng-repeat="gab in savedGabs"><span class="pull-left gab-text">{{gab.content}}</span>
                             <button ng-click="deleteThisGab(gab)" class="btn btn-sm pull-right delete-this-gab" style="margin-left: 5px;"><i class="fa fa-times"></i></button> 
                             <button ng-click="editThisGab(gab)" class="btn btn-sm btn-default edit-this-gab pull-right"><i class="fa fa-pencil"></i></button>
+                            <div class="clearfix"></div>
+                            <div class="gab-location">Near {{gab.location}}</div>
                         </li>
                     </ul>
                 </div>
